@@ -1,6 +1,15 @@
+'use client'
+
 const Footer = () => {
+
+  const handleClick = () => {
+    alert('Button clicked!')
+  }
+
   return (
-    <div>This is the footer</div>
+    <div>
+      <button onClick={handleClick}>Click me</button>
+    </div>
   )
 }
 
